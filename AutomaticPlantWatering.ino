@@ -15,7 +15,7 @@ void loop() {
 
   if (moistureLevel < threshold) {
     Serial.println("Soil is dry → Pump ON");
-    digitalWrite(pumpPin, HIGH)
+    digitalWrite(pumpPin, HIGH) 
     delay(5000);                
     digitalWrite(pumpPin, LOW); 
   } else {
