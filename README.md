@@ -14,9 +14,6 @@ Working:
 - If moisture drops below a threshold, Arduino triggers the relay to run the pump.
 - Pump stops once soil moisture is adequate.
 
-Circuit:
-
-
 Usage:
 1. Clone this repository.
 2. Open `Automatic_Plant_Watering.ino` in Arduino IDE.
